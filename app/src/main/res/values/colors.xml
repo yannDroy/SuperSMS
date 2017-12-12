@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fond">#eeeeee</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <color name="blanc">#fefefe</color>
+    <color name="grisClair">#bbbbbb</color>
+    <color name="grisFonce">#636363</color>
+    <color name="noir">#202020</color>
+
+    <color name="cyan">#2a969e</color>
+    <color name="cyanDark">#2a969e</color>
+
+    <color name="transparent">#00ffffff</color>
+
+    <color name="jaune_clair">#fffce7</color>
+
+    <color name="rouge">#b51212</color>
+    <color name="orange">#e5a62e</color>
+    <color name="vert">#65d82a</color>
+    <color name="bleuFonce">#09409b</color>
+    <color name="petrole">#388d65</color>
+</resources>

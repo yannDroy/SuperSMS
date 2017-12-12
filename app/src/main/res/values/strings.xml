@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SuperSMS</string>
+    <string name="action_settings">Réglages</string>
+
+    <string name="envoyer">Envoyer</string>
+    <string name="nouveau_message">Nouveau message...</string>
+    <string name="message">Message :</string>
+    <string name="envoyer_a">Envoyer à :</string>
+    <string name="choisissez">Contact ou numéro</string>
+    <string name="ajouter">+</string>
+
+    <string name="title_activity_reglages">Réglages</string>
+</resources>

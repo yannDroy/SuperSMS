@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nsv"
+        android:layout_weight="15">
+
+        <LinearLayout
+            android:id="@+id/liste_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/grisClair"/>
+
+    <LinearLayout
+        android:id="@+id/zone_envoi"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:minHeight="10dp"
+        android:background="@color/transparent">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nouveau_sms"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:textColor="@color/grisFonce"
+            android:background="@color/transparent"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="bottom|end"/>
+
+        <Button
+            android:id="@+id/bouton_envoyer"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/envoyer"
+            android:textColor="@color/cyan" />
+
+    </LinearLayout>
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+</LinearLayout>
